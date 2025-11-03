@@ -12,9 +12,8 @@ ENV/
 .ipynb_checkpoints
 
 # Data
-data/
-data/raw/
-data/processed/
+data/01_raw/
+data/02_interim/
 
 # macOS
 .DS_Store
