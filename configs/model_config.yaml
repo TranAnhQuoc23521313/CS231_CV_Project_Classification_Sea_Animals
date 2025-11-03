@@ -1,0 +1,11 @@
+# Model configuration
+model:
+  name: "resnet50"
+  pretrained: true
+  num_classes: 10
+  backbone:
+    type: "resnet"
+    depth: 50
+hyperparameters:
+  dropout: 0.5
+  hidden_dim: 512

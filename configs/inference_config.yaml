@@ -1,0 +1,7 @@
+# Inference configuration
+inference:
+  model_path: ../../models/checkpoints/best_model.pth
+  device: "cuda"
+  batch_size: 32
+  output_dir: ../../models/results
+  threshold: 0.5

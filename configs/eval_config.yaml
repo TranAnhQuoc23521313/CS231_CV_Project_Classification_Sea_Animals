@@ -1,0 +1,9 @@
+# Evaluation configuration
+evaluation:
+  batch_size: 64
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1
+  results_dir: ../../models/results
