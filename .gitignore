@@ -7,13 +7,10 @@ __pycache__/
 env/
 venv/
 ENV/
+cv_env/
 
 # Jupyter
 .ipynb_checkpoints
-
-# Data
-data/01_raw/
-data/02_interim/
 
 # macOS
 .DS_Store
@@ -22,5 +19,20 @@ data/02_interim/
 logs/
 
 # Model checkpoints
+data/03_processed/
+data/new_processed/
+models/
 models/checkpoints/
-
+models/KNN/
+models/LogisticRegression/
+models/RandomForest/
+models/results/
+models/SVC/
+models/tunning/
+models/XGboost/
+models/scaler_pcas.pkl
+models/sgd_classifier_SIFTDense_VLAD.pkl
+models/tuned_model_metrics.pkl
+notebooks/scalers_pcas.pkl
+notebooks/data
+data/03_processed
