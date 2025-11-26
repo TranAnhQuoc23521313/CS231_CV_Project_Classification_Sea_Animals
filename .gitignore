@@ -7,13 +7,10 @@ __pycache__/
 env/
 venv/
 ENV/
+cv_env/
 
 # Jupyter
 .ipynb_checkpoints
-
-# Data
-data/01_raw/
-data/02_interim/
 
 # macOS
 .DS_Store
@@ -22,5 +19,5 @@ data/02_interim/
 logs/
 
 # Model checkpoints
-models/checkpoints/
-
+data/03_processed/
+data/new_processed/
